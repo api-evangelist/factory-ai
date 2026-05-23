@@ -1,0 +1,141 @@
+aid: factory-ai
+name: Factory
+description: Factory is an agent-native software development platform whose Droids act as autonomous AI engineers that plan, execute, and maintain code work across CLI, desktop app, IDE plugins, and cloud. The product is B2B sales-led with a public Droid SDK (TypeScript), Droid Exec for CI/CD, a plugin marketplace, and MCP support. No public REST API surface is documented as of May 2026 - integration happens through the Droid CLI, SDK, and Droid GitHub Action.
+image: https://factory.ai/og-image.png
+tags:
+  - AI
+  - Agents
+  - Autonomous
+  - Developer Tools
+  - Software Engineering
+  - Code Generation
+  - DevOps
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.18'
+position: Consuming
+kind: contract
+access: 3rd-Party
+apis:
+  - aid: factory-ai:droid-sdk
+    name: Factory Droid SDK (TypeScript)
+    description: TypeScript SDK for building, invoking, and orchestrating Droids. Public source on GitHub at Factory-AI/droid-sdk-typescript.
+    tags:
+      - SDK
+      - TypeScript
+      - Droids
+      - Agents
+    properties:
+      - url: https://docs.factory.ai/
+        type: Documentation
+      - url: https://github.com/Factory-AI/droid-sdk-typescript
+        type: SourceCode
+  - aid: factory-ai:droid-cli
+    name: Factory Droid CLI
+    description: Terminal-based interface for running Droids interactively or via Droid Exec for non-interactive CI/CD workflows. Installed via curl install script from app.factory.ai/cli.
+    tags:
+      - CLI
+      - Droids
+      - Automation
+    properties:
+      - url: https://docs.factory.ai/cli
+        type: Documentation
+      - url: https://app.factory.ai/cli
+        type: Install
+  - aid: factory-ai:droid-action
+    name: Factory Droid GitHub Action
+    description: Official GitHub Action for invoking Droids inside CI pipelines for automated code review, PR generation, and other agentic tasks.
+    tags:
+      - GitHub Actions
+      - CI/CD
+      - Droids
+    properties:
+      - url: https://github.com/Factory-AI/droid-action
+        type: SourceCode
+common:
+  - url: https://factory.ai
+    type: Website
+  - url: https://app.factory.ai/
+    type: Portal
+  - url: https://app.factory.ai/signup
+    type: SignUp
+  - url: https://app.factory.ai/login
+    type: Login
+  - url: https://docs.factory.ai/
+    type: Documentation
+  - url: https://docs.factory.ai/llms.txt
+    type: LLMsTxt
+  - url: https://factory.ai/pricing
+    type: Pricing
+  - url: https://factory.ai/enterprise
+    type: Enterprise
+  - url: https://factory.ai/contact
+    type: Contact
+  - url: https://factory.ai/news
+    type: Blog
+  - url: https://factory.ai/news#case-studies
+    type: CaseStudies
+  - url: https://factory.ai/company#careers
+    type: Careers
+  - url: https://factory.ai/oss
+    type: OpenSource
+  - url: https://factory.ai/science
+    type: Research
+  - url: https://factory.ai/privacy
+    type: PrivacyPolicy
+  - url: https://factory.ai/terms
+    type: TermsOfService
+  - url: https://factory.ai/sla
+    type: SLA
+  - url: https://factory.ai/dpa
+    type: DPA
+  - url: https://factory.ai/baa
+    type: BAA
+  - url: https://github.com/Factory-AI
+    type: GitHubOrganization
+  - url: https://github.com/Factory-AI/factory
+    type: SourceCode
+  - url: https://github.com/Factory-AI/droid-sdk-typescript
+    type: SourceCode
+  - url: https://github.com/Factory-AI/factory-plugins
+    type: Plugins
+  - url: https://github.com/Factory-AI/eslint-plugin
+    type: Plugin
+  - url: https://github.com/Factory-AI/examples
+    type: Examples
+  - url: https://x.com/FactoryAI
+    type: X (Twitter)
+  - url: https://www.linkedin.com/company/factory-hq/
+    type: LinkedIn
+  - type: Features
+    data:
+      - Droid CLI for interactive agent-pair programming
+      - Droid Exec for non-interactive CI/CD agent runs
+      - Desktop Factory App connecting Droids to local machines
+      - Droid Computers - Factory-managed persistent cloud machines
+      - Factory Missions for multi-step structured workflows
+      - Custom Droids with dedicated prompts and models
+      - AGENTS.md repository conventions
+      - Reusable Skills and team-shared Plugins
+      - Local code review via /review workflow
+      - Agent-readiness scoring for repositories
+      - Model Context Protocol (MCP) integration
+      - Bring Your Own Key (BYOK) for OpenAI, Anthropic, Google, others
+      - IDE plugins for VS Code, JetBrains, Zed
+      - Slack and Linear integrations
+      - Cloud Templates for pre-configured dev environments
+      - GPT-5, Claude Opus/Sonnet, Gemini frontier model support
+      - Pricing Pro $20, Plus $100, Max $200, Team and Enterprise tiers
+      - Enterprise SSO, SAML/SCIM, Zero Data Retention, on-prem deploy
+    sources:
+      - https://factory.ai
+      - https://docs.factory.ai/
+      - https://factory.ai/pricing
+    updated: '2026-05-23'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+  - FN: APIs.json
+    email: info@apis.io
+  - name: Factory
+    url: https://factory.ai
