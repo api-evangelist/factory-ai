@@ -58,13 +58,13 @@ common:
   - url: https://app.factory.ai/
     type: Portal
   - url: https://app.factory.ai/signup
-    type: SignUp
+    type: Signup
   - url: https://app.factory.ai/login
     type: Login
   - url: https://docs.factory.ai/
     type: Documentation
   - url: https://docs.factory.ai/llms.txt
-    type: LLMsTxt
+    type: LlmsText
   - url: https://factory.ai/pricing
     type: Pricing
   - url: https://factory.ai/enterprise
@@ -86,7 +86,7 @@ common:
   - url: https://factory.ai/terms
     type: TermsOfService
   - url: https://factory.ai/sla
-    type: SLA
+    type: ServiceLevelAgreement
   - url: https://factory.ai/dpa
     type: DPA
   - url: https://factory.ai/baa
