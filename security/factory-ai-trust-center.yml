@@ -1,0 +1,12 @@
+generated: '2026-07-11'
+method: searched
+probe: true
+source: https://factory.ai/security
+url: https://factory.ai/security
+certifications:
+- SOC 2
+evidence:
+- source: https://factory.ai/security
+  keywords:
+  - soc 2
+  - trust center

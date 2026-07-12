@@ -53,6 +53,10 @@ apis:
       - url: https://github.com/Factory-AI/droid-action
         type: SourceCode
 common:
+  - type: TrustCenter
+    url: security/factory-ai-trust-center.yml
+  - type: DomainSecurity
+    url: security/factory-ai-domain-security.yml
   - url: https://factory.ai
     type: Website
   - url: https://app.factory.ai/
