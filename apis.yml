@@ -1,6 +1,18 @@
 aid: factory-ai
 name: Factory
 description: Factory is an agent-native software development platform whose Droids act as autonomous AI engineers that plan, execute, and maintain code work across CLI, desktop app, IDE plugins, and cloud. The product is B2B sales-led with a public Droid SDK (TypeScript), Droid Exec for CI/CD, a plugin marketplace, and MCP support. No public REST API surface is documented as of May 2026 - integration happens through the Droid CLI, SDK, and Droid GitHub Action.
+accessModel:
+  pricing: free
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Free
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 image: https://factory.ai/og-image.png
 tags:
   - AI
