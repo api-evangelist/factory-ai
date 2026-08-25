@@ -9,13 +9,20 @@
       "method": "feed"
     },
     {
-      "source": "https://factory.ai/news",
+      "source": "https://factory.ai/news/rss",
       "feed_url": "https://factory.ai/news/rss",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://factory.ai/news",
+      "feed_url": "https://factory.com/news/rss",
       "title": "",
       "saved": 0,
       "method": "discovered"
     }
   ],
-  "fetched": "2026-08-15T12:22:01Z",
-  "post_count": 55
+  "fetched": "2026-08-22T20:20:02Z",
+  "post_count": 56
 }
