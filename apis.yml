@@ -89,6 +89,12 @@ apis:
       - url: https://github.com/Factory-AI/droid-action
         type: SourceCode
 common:
+  - type: Plans
+    url: plans/factory-ai-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/factory-ai-rate-limits.yml
+  - type: FinOps
+    url: finops/factory-ai-finops.yml
   - type: TrustCenter
     url: security/factory-ai-trust-center.yml
   - type: DomainSecurity
